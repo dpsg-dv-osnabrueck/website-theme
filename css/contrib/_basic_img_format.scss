@@ -1,0 +1,51 @@
+/* Wordpress: Basic img format */
+
+div.aligncenter {
+    width:auto !important;
+}
+
+.aligncenter, a img.alignnone, a img.aligncenter, .alignnone, a img.alignnone, .aligncenter img, .alignright img, .alignleft img {
+    width:100% !important;
+    height:auto;
+}
+
+.alignright, .alignleft {
+   width:25% !important;
+   height:auto;
+   float:left;
+}
+
+.alignright, a img.alignright {
+    float:right;
+    margin:10px 0 0 20px;
+}
+
+.alignleft, a img.alignleft {
+    float:left;
+    margin:10px 20px 0 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignnone {
+    width:auto !important;
+}
+
+.wp-caption p.wp-caption-text, .gallery-caption, .isc-source-text {
+    font-size:0.737em !important;
+    line-height:1.5em !important;
+    padding: 0 10px 0 10px !important;
+    word-spacing: 0!important;
+}
+
+@media all and (max-width: 767px) {
+      .alignleft, .alignright {float:left; width:100% !important; margin:0 0 20px 0;}
+}

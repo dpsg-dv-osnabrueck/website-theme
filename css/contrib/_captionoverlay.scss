@@ -1,0 +1,19 @@
+/* Wordpress Caption-Overlay */
+
+.wp-caption{
+    padding-bottom:10px;
+    padding-top:30px;
+    position:relative;
+}
+
+p.wp-caption-text {
+    position:absolute;
+    left:0%;
+    right:0%;
+    padding:10px 10px 10px 10px;
+    background:#333;
+    color:#fff;
+    font-style: normal;
+    opacity:0.8 !important;
+    bottom:-6px;
+}
